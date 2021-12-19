@@ -18,8 +18,9 @@ header .headerone{
 header .menu{
   float: right;
   color: #e3e6e4;
-  padding: 1px;
+  padding: 15px;
 }
-.menu #links{
+.menu a{
   margin: 15px;
 }
+
