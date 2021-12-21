@@ -51,7 +51,7 @@ main{
 }
 #main-c #input-div{
   display: flex;
-  width: 567px;
+  width: 571px;
   height: 36px;
   border-radius: 25px;
   border: 1px solid white;
@@ -60,7 +60,7 @@ main{
   margin: auto;
 }
 input{
-  width: 90%;
+  width: 100%;
   height: 100%;
   color: white;
   border: none;
@@ -70,9 +70,9 @@ input:focus{
   outline: none;
 }
 #icon-div{
-  padding: 10px 0 10px 100px;
   text-align: center;
   height: 100%;
-  width: 10%;
+  width: 44px;
+  padding: 10px 0;
 }
 
