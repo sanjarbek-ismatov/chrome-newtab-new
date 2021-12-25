@@ -119,6 +119,9 @@ input, #icon-div, #icon-div img{
   #logo{
     font-size: 50px;
   }
+  #bookmarks{
+    display: none;
+  }
  #main-c{
     display: flex;
   }
@@ -126,5 +129,17 @@ input, #icon-div, #icon-div img{
 @media screen and (max-width: 384px){
   #logo{
     font-size: 40px;
+  }
+  .headerone{
+    display: none;
+  }
+  .menu{
+    width: 100%;
+    font-size: 20px;
+    text-align: right;
+  }
+  #logo{
+      margin-left: 0;
+    margin-right: 0;
   }
 }
