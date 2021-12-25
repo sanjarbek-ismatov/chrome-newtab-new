@@ -23,6 +23,14 @@ header .menu{
 }
 .menu a{
   margin: 15px;
+  color: white;
+  background-color: transparent;
+}
+.menu{
+  position: relative;
+  right: 5px;
+  border-radius: 5px;
+  width: 77px;
 }
 main{
     width: 100%;
@@ -140,6 +148,8 @@ a{
     width: 100%;
     font-size: 20px;
     text-align: right;
+    right: 0;
+    background-color: transparent;
   }
   #logo{
       margin-left: 0;
