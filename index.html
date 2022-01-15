@@ -25,8 +25,17 @@
 			<div id="main-c">
 				<div id="input-div">
 				<input title="Search" type="text" name="search" id="input-search" placeholder="Search...">
+
+				
 				<div id="icon-div">
-				<img src="search-icon.png">
+				<img src="search-icon.png" id="search-icon">
+				<script type="text/javascript">
+					const input = document.getElementById('input-search');
+					const search = document.getElementById('search-icon')
+					search.addEventListener('click', function () {
+						window.location.href = `https://www.google.com/search?q=${input.value}`
+					})
+					</script>
 			</div>
 			</div>
 			
